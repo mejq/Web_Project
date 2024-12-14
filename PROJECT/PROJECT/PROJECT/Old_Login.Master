@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Old_Login.master.cs" Inherits="PROJECT.Old_Login" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Diary - Login</title>
+    <link rel="stylesheet" href="login_my.css">
+</head>
+<body>
+    <div class="login-container">
+        <!-- Left Section with Info -->
+        <div class="info">
+            <img src="images/logo.png" alt="Online Diary Logo" class="logo">
+            <h2>Welcome to Your Online Diary</h2>
+            <p>
+                Your personal online diary where you can record thoughts, memories, and feelings anytime, anywhere.
+                Log in to continue your journey of self-reflection and personal growth. Start writing your story today!
+            </p>
+        </div>
+
+        <!-- Right Section with Login Form -->
+        <div class="login-form">
+            <div class="form-container">
+                <h2>Sign Up</h2>
+                <form action="#" method="POST">
+                    <!-- Username Input -->
+                    <input type="text" name="username" placeholder="Username" required>
+                    <!-- Password Input -->
+                   
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <!-- Submit Button -->
+                    <button type="submit">
+                        <a  href="index.aspx">Sign Up</a>
+                    </button>e
+                    <a href="create-account.html">Don't have an account? </a>
+
+                </form>
+                <a href="#">Forgot your password?</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

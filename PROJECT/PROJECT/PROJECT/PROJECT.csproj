@@ -67,12 +67,63 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\all.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\templatemo-style.css" />
+    <Content Include="Home.aspx" />
+    <Content Include="img\bg-01.jpg" />
+    <Content Include="img\call-to-action-2.jpg" />
+    <Content Include="img\call-to-action-3.jpg" />
+    <Content Include="img\call-to-action.jpg" />
+    <Content Include="img\coffee-glass.jpg" />
+    <Content Include="img\home_my.jpg" />
+    <Content Include="img\ice-mountain.jpg" />
+    <Content Include="img\index_wallpaper.jpg" />
+    <Content Include="img\login_my.jpg" />
+    <Content Include="img\login_wallpaper.jpg" />
+    <Content Include="img\mobile-screen.png" />
+    <Content Include="img\people.jpg" />
+    <Content Include="img\person-1.png" />
+    <Content Include="img\person-2.png" />
+    <Content Include="img\person-3.png" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\parallax.min.js" />
+    <Content Include="SignUp.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main_w_Login.Master.cs">
+      <DependentUpon>Main_w_Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Main_w_Login.Master.designer.cs">
+      <DependentUpon>Main_w_Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Old_Login.Master.cs">
+      <DependentUpon>Old_Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Old_Login.Master.designer.cs">
+      <DependentUpon>Old_Login.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Main_w_Login.Master" />
+    <Content Include="Old_Login.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

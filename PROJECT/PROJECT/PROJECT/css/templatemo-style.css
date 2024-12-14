@@ -1,0 +1,208 @@
+:root {
+    /* Earthy tone colors */
+    --dark-brown: #795548;
+    --medium-brown: #8D6E63;
+    --light-brown: #efebe9;
+    --text-color: #4E342E;
+    --link-color: #3D5A80;
+    --link-hover-color: #EE6C4D;
+    --light-shadow: rgba(0, 0, 0, 0.1);
+    --strong-shadow: rgba(0, 0, 0, 0.2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-color);
+    background: url('img/home_my.jpg') no-repeat center center fixed, #f0f0f0;
+    background-size: cover;
+    background-blend-mode: overlay;
+    overflow-x: hidden;
+    line-height: 1.8;
+    background-color: #f5f5f5;
+}
+
+a,
+button {
+    transition: all 0.3s ease;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+    a:hover {
+        color: var(--link-hover-color);
+        text-decoration: underline;
+    }
+
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.navbar-light {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .navbar-light .navbar-nav .nav-link {
+        color: var(--medium-brown);
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+        .navbar-light .navbar-nav .nav-link:hover,
+        .navbar-light .navbar-nav .active > .nav-link {
+            color: var(--dark-brown);
+            border-bottom: 2px solid var(--dark-brown);
+        }
+
+.tm-brand-name {
+    font-size: 3rem;
+    color: var(--dark-brown);
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tm-bg-white-transparent {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px var(--dark-brown);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tm-feature-box {
+    max-width: 360px;
+    min-height: 480px;
+    background-color: var(--dark-brown);
+    color: var(--light-brown);
+    border: 1px solid var(--dark-brown);
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto 40px;
+    box-shadow: 0px 4px 8px var(--light-shadow);
+    transition: all 0.3s ease;
+    font-weight: bold 
+    
+}
+
+    .tm-feature-box:hover {
+        box-shadow: 0px 6px 12px var(--strong-shadow);
+        transform: translateY(-5px);
+    }
+
+.tm-feature-name {
+    font-size: 1.75rem;
+    color: var(--light-brown);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: var(--medium-brown);
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0px 4px 6px var(--light-shadow);
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: var(--dark-brown);
+        transform: translateY(-3px);
+        box-shadow: 0px 6px 12px var(--strong-shadow);
+    }
+
+.tm-call-to-action-col {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-brown);
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 30px;
+    box-shadow: 0px 4px 8px var(--light-shadow);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tm-call-to-action-text {
+    color: var(--dark-brown);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.tm-call-to-action-image {
+    max-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px var(--light-shadow);
+}
+
+.tm-contact-form input,
+.tm-contact-form textarea {
+    background-color: var(--light-brown);
+    color: var(--text-color);
+    border: 1px solid var(--medium-brown);
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+    .tm-contact-form input:focus,
+    .tm-contact-form textarea:focus {
+        border-color: var(--dark-brown);
+        outline: none;
+    }
+
+.tm-copyright-text {
+    text-align: center;
+    color: var(--medium-brown);
+    font-size: 0.95rem;
+    padding: 20px 0;
+    margin-top: 60px;
+    border-top: 1px solid var(--medium-brown);
+}
+
+@media (max-width: 768px) {
+    .tm-brand-name {
+        font-size: 2.5rem;
+    }
+
+    .tm-feature-box {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .btn-primary {
+        padding: 12px 25px;
+    }
+
+    .tm-call-to-action-col {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tm-call-to-action-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
