@@ -213,6 +213,27 @@
         <mxCell id="ZIyLOdGgL62Nhkdruaqg-107" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Gallery&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=1;" vertex="1" parent="1">
           <mxGeometry x="482" y="434" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-108" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/18.Pictures-Day-128.png" vertex="1" parent="1">
+          <mxGeometry x="395" y="502" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-109" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/18.Pictures-Day-128.png" vertex="1" parent="1">
+          <mxGeometry x="446" y="540" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-110" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/18.Pictures-Day-128.png" vertex="1" parent="1">
+          <mxGeometry x="395" y="541" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-111" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/18.Pictures-Day-128.png" vertex="1" parent="1">
+          <mxGeometry x="446" y="503" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-112" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/18.Pictures-Day-128.png" vertex="1" parent="1">
+          <mxGeometry x="493" y="503" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-113" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/18.Pictures-Day-128.png" vertex="1" parent="1">
+          <mxGeometry x="493" y="541" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-114" value="GALLERY PAGE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="447" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
