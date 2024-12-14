@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Sayfa -1" id="lpaqPt4GCAIE5SKZ4p8X">
-    <mxGraphModel dx="323" dy="171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="356" dy="189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,18 @@
         </mxCell>
         <mxCell id="ZIyLOdGgL62Nhkdruaqg-20" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;App Main Page&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="25" y="230" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="55" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-31" value="Write Your Day" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIyLOdGgL62Nhkdruaqg-35" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;Timeline that shows witch days user wrote its diary plus shows important days&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="380" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
