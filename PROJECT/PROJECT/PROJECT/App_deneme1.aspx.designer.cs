@@ -11,7 +11,7 @@ namespace PROJECT
 {
 
 
-    public partial class Old_Login
+    public partial class App_deneme1
     {
 
         /// <summary>
@@ -24,48 +24,48 @@ namespace PROJECT
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtbx_username control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtbx_username;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// txtbx_password control.
+        /// txtbx_diary control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtbx_password;
+        protected global::System.Web.UI.WebControls.TextBox txtbx_diary;
 
         /// <summary>
-        /// txtbx_email control.
+        /// btn_save control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtbx_email;
+        protected global::System.Web.UI.WebControls.Button btn_save;
 
         /// <summary>
-        /// ddlist_gender control.
+        /// FileUpld_diary control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlist_gender;
+        protected global::System.Web.UI.WebControls.FileUpload FileUpld_diary;
 
         /// <summary>
-        /// btn_signup control.
+        /// GridW_publicdiary control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_signup;
+        protected global::System.Web.UI.WebControls.GridView GridW_publicdiary;
     }
 }

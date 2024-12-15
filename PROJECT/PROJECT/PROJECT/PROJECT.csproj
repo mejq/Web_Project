@@ -67,8 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_deneme1.aspx" />
     <Content Include="css\all.min.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\app_firstpage.css" />
     <Content Include="css\templatemo-style.css" />
     <Content Include="Home.aspx" />
     <Content Include="img\bg-01.jpg" />
@@ -81,11 +83,13 @@
     <Content Include="img\index_wallpaper.jpg" />
     <Content Include="img\login_my.jpg" />
     <Content Include="img\login_wallpaper.jpg" />
+    <Content Include="img\logout_icon.png" />
     <Content Include="img\mobile-screen.png" />
     <Content Include="img\people.jpg" />
     <Content Include="img\person-1.png" />
     <Content Include="img\person-2.png" />
     <Content Include="img\person-3.png" />
+    <Content Include="img\profile_icon.png" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\parallax.min.js" />
@@ -93,6 +97,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_deneme1.aspx.cs">
+      <DependentUpon>App_deneme1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_deneme1.aspx.designer.cs">
+      <DependentUpon>App_deneme1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -102,12 +113,14 @@
     </Compile>
     <Compile Include="Main_w_Login.Master.cs">
       <DependentUpon>Main_w_Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Main_w_Login.Master.designer.cs">
       <DependentUpon>Main_w_Login.Master</DependentUpon>
     </Compile>
     <Compile Include="Old_Login.Master.cs">
       <DependentUpon>Old_Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Old_Login.Master.designer.cs">
       <DependentUpon>Old_Login.Master</DependentUpon>
@@ -120,11 +133,19 @@
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AppPage.Master.cs">
+      <DependentUpon>AppPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppPage.Master.designer.cs">
+      <DependentUpon>AppPage.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main_w_Login.Master" />
     <Content Include="Old_Login.Master" />
     <None Include="packages.config" />
+    <Content Include="AppPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
