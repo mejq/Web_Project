@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|c:\\users\\mejo_\\documents\\github\\web_project\\project\\project\\project\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|c:\\users\\mejo_\\documents\\github\\web_project\\project\\project\\project\\master_pages\\old_login.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\master_pages\\old_login.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\master_pages\\old_login.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
@@ -15,11 +15,11 @@
       "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\master_pages\\main_w_login.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|c:\\users\\mejo_\\documents\\github\\web_project\\project\\project\\project\\master_pages\\main_w_login.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\master_pages\\main_w_login.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\master_pages\\main_w_login.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|c:\\users\\mejo_\\documents\\github\\web_project\\project\\project\\project\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -153,8 +153,7 @@
               "RelativeToolTip": "PROJECT\\Master_Pages\\Main_w_Login.Master.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T18:22:11.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T18:22:11.205Z"
             },
             {
               "$type": "Document",
@@ -166,8 +165,7 @@
               "RelativeToolTip": "PROJECT\\Master_Pages\\Old_Login.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-16T18:21:31.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T18:21:31.437Z"
             },
             {
               "$type": "Document",
@@ -188,7 +186,7 @@
               "RelativeDocumentMoniker": "PROJECT\\Master_Pages\\Main_w_Login.Master",
               "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Main_w_Login.Master",
               "RelativeToolTip": "PROJECT\\Master_Pages\\Main_w_Login.Master",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-12-14T12:42:29.818Z",
               "EditorCaption": ""
@@ -216,8 +214,7 @@
               "RelativeToolTip": "PROJECT\\css\\login_my.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-16T09:04:25.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T09:04:25.238Z"
             },
             {
               "$type": "Document",
@@ -228,8 +225,7 @@
               "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\login_wallpaper.jpg -  [English (United States)] - Bitmap [736x1470, 24 bit, JPG]",
               "RelativeToolTip": "PROJECT\\img\\login_wallpaper.jpg -  [English (United States)] - Bitmap [736x1470, 24 bit, JPG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-12-15T11:12:17.035Z",
-              "EditorCaption": " -  [English (United States)] - Bitmap [736x1470, 24 bit, JPG]"
+              "WhenOpened": "2024-12-15T11:12:17.035Z"
             },
             {
               "$type": "Document",
@@ -241,8 +237,7 @@
               "RelativeToolTip": "PROJECT\\packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-16T16:04:43.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T16:04:43.884Z"
             },
             {
               "$type": "Document",
@@ -254,8 +249,7 @@
               "RelativeToolTip": "PROJECT\\About.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-16T04:12:53.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T04:12:53.32Z"
             },
             {
               "$type": "Document",
