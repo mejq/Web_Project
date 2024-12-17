@@ -1,0 +1,155 @@
+:root {
+    --dark-brown: #3e2723; /* Example: dark earthy brown */
+    --medium-brown: #6d4c41; /* Example: medium brown */
+    --light-brown: #d7ccc8; /* Example: light beige */
+    --light-shadow: rgba(0, 0, 0, 0.1); /* Light shadow for subtle effects */
+    --strong-shadow: rgba(0, 0, 0, 0.25); /* Strong shadow for emphasis */
+    --text-color: #212121; /* Text color for input fields */
+    --link-color: #3e2723; /* Link color */
+    --link-hover-color: #1b0000; /* Link hover color */
+}
+
+
+
+
+
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: var(--light-brown);
+    background-image: url("C:\Users\mejo_\Documents\GitHub\Web_Project\PROJECT\PROJECT\PROJECT\img\login_wallpaper.jpg");
+}
+
+.info {
+    flex: 1;
+    padding: 40px;
+    background-color: var(--dark-brown);
+    color: var(--light-brown);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 8px var(--light-shadow);
+}
+
+    .info h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .info p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        margin: 20px 0;
+    }
+
+    .info .logo {
+        max-width: 150px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px var(--strong-shadow);
+    }
+
+.login-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px var(--light-shadow);
+}
+
+    .form-container h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: var(--dark-brown);
+    }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+    form input,
+    form select,
+    form button {
+        font-size: 1rem;
+        padding: 15px;
+        border: 1px solid var(--medium-brown);
+        border-radius: 8px;
+        background-color: var(--light-brown);
+        color: var(--text-color);
+        box-shadow: 0px 4px 6px var(--light-shadow);
+        transition: border-color 0.3s, box-shadow 0.3s ease;
+    }
+
+        form input:focus,
+        form select:focus {
+            border-color: var(--dark-brown);
+            outline: none;
+            box-shadow: 0px 6px 12px var(--strong-shadow);
+        }
+
+    form button {
+        background-color: var(--medium-brown);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        form button:hover {
+            background-color: var(--dark-brown);
+            box-shadow: 0px 6px 12px var(--strong-shadow);
+        }
+
+    form a {
+        text-align: center;
+        color: var(--link-color);
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+
+        form a:hover {
+            color: var(--link-hover-color);
+            text-decoration: underline;
+        }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .info, .login-form {
+        flex: none;
+        padding: 20px;
+    }
+
+        .info h2 {
+            font-size: 2rem;
+        }
+
+    .form-container {
+        padding: 20px;
+    }
+}
+
+}

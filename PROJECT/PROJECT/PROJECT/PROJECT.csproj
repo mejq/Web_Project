@@ -67,28 +67,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_deneme1.aspx" />
+    <Content Include="About.aspx" />
+    <Content Include="App_Calendar.aspx" />
+    <Content Include="App_Gallery.aspx" />
+    <Content Include="App_Home.aspx" />
+    <Content Include="App_Map.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="css -app\all.min.css" />
+    <Content Include="css -app\bootstrap.min.css" />
+    <Content Include="css -app\contact.css" />
+    <Content Include="css -app\login_my.css" />
+    <Content Include="css -app\templatemo-style.css" />
+    <Content Include="css\login_my.css" />
+    <Content Include="css\app.css" />
+    <Content Include="css\about.css" />
+    <Content Include="css\contact.css" />
     <Content Include="css\all.min.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\app_firstpage.css" />
     <Content Include="css\templatemo-style.css" />
+    <Content Include="Features.aspx" />
     <Content Include="Home.aspx" />
-    <Content Include="img\bg-01.jpg" />
-    <Content Include="img\call-to-action-2.jpg" />
-    <Content Include="img\call-to-action-3.jpg" />
-    <Content Include="img\call-to-action.jpg" />
-    <Content Include="img\coffee-glass.jpg" />
+    <Content Include="img\app_1.jpg" />
+    <Content Include="img\background_1200x1100.jpg" />
+    <Content Include="img\background_2000x2000.jpg" />
+    <Content Include="img\background_3000x3000.jpg" />
     <Content Include="img\home_my.jpg" />
-    <Content Include="img\ice-mountain.jpg" />
     <Content Include="img\index_wallpaper.jpg" />
     <Content Include="img\login_my.jpg" />
     <Content Include="img\login_wallpaper.jpg" />
     <Content Include="img\logout_icon.png" />
-    <Content Include="img\mobile-screen.png" />
-    <Content Include="img\people.jpg" />
-    <Content Include="img\person-1.png" />
-    <Content Include="img\person-2.png" />
-    <Content Include="img\person-3.png" />
     <Content Include="img\profile_icon.png" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.min.js" />
@@ -97,12 +105,54 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_deneme1.aspx.cs">
-      <DependentUpon>App_deneme1.aspx</DependentUpon>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="App_deneme1.aspx.designer.cs">
-      <DependentUpon>App_deneme1.aspx</DependentUpon>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Calendar.aspx.cs">
+      <DependentUpon>App_Calendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Calendar.aspx.designer.cs">
+      <DependentUpon>App_Calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Gallery.aspx.cs">
+      <DependentUpon>App_Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Gallery.aspx.designer.cs">
+      <DependentUpon>App_Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Home.aspx.cs">
+      <DependentUpon>App_Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Home.aspx.designer.cs">
+      <DependentUpon>App_Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Map.aspx.cs">
+      <DependentUpon>App_Map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Map.aspx.designer.cs">
+      <DependentUpon>App_Map.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Features.aspx.cs">
+      <DependentUpon>Features.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Features.aspx.designer.cs">
+      <DependentUpon>Features.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -111,18 +161,18 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main_w_Login.Master.cs">
+    <Compile Include="Master_Pages\Main_w_Login.Master.cs">
       <DependentUpon>Main_w_Login.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main_w_Login.Master.designer.cs">
+    <Compile Include="Master_Pages\Main_w_Login.Master.designer.cs">
       <DependentUpon>Main_w_Login.Master</DependentUpon>
     </Compile>
-    <Compile Include="Old_Login.Master.cs">
+    <Compile Include="Master_Pages\Old_Login.Master.cs">
       <DependentUpon>Old_Login.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Old_Login.Master.designer.cs">
+    <Compile Include="Master_Pages\Old_Login.Master.designer.cs">
       <DependentUpon>Old_Login.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -133,19 +183,19 @@
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AppPage.Master.cs">
+    <Compile Include="Master_Pages\AppPage.Master.cs">
       <DependentUpon>AppPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AppPage.Master.designer.cs">
+    <Compile Include="Master_Pages\AppPage.Master.designer.cs">
       <DependentUpon>AppPage.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Main_w_Login.Master" />
-    <Content Include="Old_Login.Master" />
+    <Content Include="Master_Pages\Main_w_Login.Master" />
+    <Content Include="Master_Pages\Old_Login.Master" />
     <None Include="packages.config" />
-    <Content Include="AppPage.Master" />
+    <Content Include="Master_Pages\AppPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

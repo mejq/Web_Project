@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -12,7 +13,7 @@ namespace PROJECT
     public partial class Old_Login : System.Web.UI.MasterPage
     {
         // SQL bağlantı dizesi
-        private string _connectionString = "Server=MEJO;Database=PROJECT;Trusted_Connection=True;";
+        private string _connectionString = "Data Source = MEJO; Initial Catalog = PROJECT; Persist Security Info=True;User ID = admin; Password=mejo1234;Encrypt=False;TrustServerCertificate=True";
 
 
         protected void Page_Load(object sender, EventArgs e)
@@ -32,7 +33,7 @@ namespace PROJECT
         private void SignUp_User(string username, string password, string email, string gender)
         {
 
-            string add_usr_command = "INSERT INTO Users (Username, Password, Gender, Email) " +
+            string add_usr_command = "INSERT INTO User_Info (Username, Passwd, Gender, Email) " +
                 "VALUES (@Username, @Password, @Gender, @Email)";
 
             using (SqlConnection connection = new SqlConnection(_connectionString))

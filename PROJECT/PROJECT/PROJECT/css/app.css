@@ -1,0 +1,60 @@
+/* Label Heading Style */
+.label-heading {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* TextBox Style */
+.text-box {
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Button Style */
+.btn-save {
+    background-color: #795548;
+    color: white;
+    border-radius: 6px;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .btn-save:hover {
+        background-color: #5A463F;
+    }
+
+/* File Upload Style */
+.file-upload {
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+}
+
+/* GridView Style */
+.grid-view {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .grid-view th, .grid-view td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #5A463F;
+    }
+
+    .grid-view tr:nth-child(odd) {
+        background-color: #f8f8f8;
+    }
+
+    .grid-view tr:nth-child(even) {
+        background-color: #f1f1f1;
+    }
+
+    .grid-view tr:hover {
+        background-color: #e0e0e0;
+    }

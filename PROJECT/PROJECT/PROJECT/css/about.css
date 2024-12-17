@@ -1,0 +1,59 @@
+/* About Section Styling */
+#about {
+    background-color: var(--light-brown); /* Hafif kahverengi arka plan */
+    padding: 50px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px var(--light-shadow); /* Hafif gölge efekti */
+    margin: 40px auto;
+    max-width: 800px; /* Bölüm geni?li?i */
+    text-align: center;
+}
+
+/* About ?çeri?i */
+.about-content {
+    color: var(--text-color); /* Metin rengi */
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.8;
+}
+
+    .about-content h2 {
+        color: var(--dark-brown); /* Ba?l?k rengi */
+        font-size: 2rem; /* Ba?l?k boyutu */
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .about-content p {
+        font-size: 1.2rem; /* Paragraf boyutu */
+        margin-bottom: 20px;
+        color: var(--text-color); /* Paragraf metin rengi */
+    }
+
+        .about-content p:last-child {
+            margin-bottom: 0; /* Son paragraf için bo?luk kald?rma */
+        }
+
+    /* Hover Efekti (E?er link eklenirse) */
+    .about-content a {
+        color: var(--link-color); /* Link rengi */
+        text-decoration: underline;
+    }
+
+        .about-content a:hover {
+            color: var(--link-hover-color); /* Hover rengi */
+        }
+
+/* Mobil Uyum */
+@media (max-width: 768px) {
+    #about {
+        padding: 30px 15px;
+    }
+
+    .about-content h2 {
+        font-size: 1.8rem; /* Daha küçük ba?l?k */
+    }
+
+    .about-content p {
+        font-size: 1rem; /* Daha küçük metin */
+    }
+}

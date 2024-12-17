@@ -11,23 +11,22 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
+          <link rel="stylesheet" href="css/app.css" />
+
     <!-- Add custom styles for better responsiveness -->
     <link rel="stylesheet" href="css/custom-style.css" />
   </head>
   <body>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="img/home_my.jpg">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/background_3000x3000.jpg">
       <div class="container-fluid">
         <!-- Brand Section -->
-        <div class="row tm-brand-row">
-          <div class="col-lg-4 col-11">
-            <div class="tm-brand-container tm-bg-white-transparent">
-              <i class="fas fa-2x fa-book-open tm-brand-icon"></i>
-              <div class="tm-brand-texts">
-                <h1 class="text-uppercase tm-brand-name">MyDiary</h1>
-                <p class="small">Capture every moment</p>
-              </div>
-            </div>
-          </div>
+        <!-- Brand Section -->
+ <div class="row tm-brand-row">
+   <div class="col-lg-3 col-md-4 col-11">
+     <div class="tm-brand-container tm-bg-white-transparent">
+       <img src="img/logo.png" alt="MyDiary Logo" class="tm-brand-logo img-fluid"> <!-- Logo added -->
+     </div>
+   </div>
           <!-- Navigation Section -->
           <div class="col-lg-8 col-1">
             <div class="tm-nav">
@@ -40,7 +39,7 @@
                   <ul class="navbar-nav">
                     <li class="nav-item active">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="Home.aspx">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
@@ -48,11 +47,11 @@
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="features.html">Features</a>
+                      <a class="nav-link" href="Features.aspx">Features</a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="about.html">About</a>
+                      <a class="nav-link" href="About.aspx">About</a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
@@ -80,61 +79,11 @@
             </div>
           </div>
         </section>
-
-            <!-- Call to Action Section -->
-  <section class="row" id="tmCallToAction">
-    <div class="col-12 tm-call-to-action-col">
-      <img src="img/login_wallpaper.jpg" alt="Call to Action Image" class="img-fluid tm-call-to-action-image" />
-      <div class="tm-bg-white tm-call-to-action-text">
-        <h2 class="tm-call-to-action-title">Login Journaling Today</h2>
-        <p class="tm-call-to-action-description">
-          Discover the power of reflection and storytelling. Begin your journey with MyDiary today!
-        </p>
-        <form action="#" method="get" class="tm-call-to-action-form">
-             <input name="Username" type="username" class="tm-username-input" id="username" placeholder="Username" required /><br />
-             <input name="Password" type="password" class="tm-password-input" id="password" placeholder="Password" required />
-            <br><br />
- <button type="submit" class="btn btn-secondary">Login</button><br /><br />
-<a>İf you don't have an account </a> <button type="submit" class="btn btn-secondary">Sign Up</button>
-
-        </form>
-      </div>
-    </div>
-  </section>
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+          </asp:ContentPlaceHolder>
 
 
-        <!-- Features Section -->
-        <div class="row" id="tmFeatures">
-          <div class="col-lg-4 col-md-6">
-            <div class="tm-bg-white-transparent tm-feature-box">
-              <h3 class="tm-feature-name">Organized Entries</h3>
-              <div class="tm-feature-icon-container">
-                <i class="fas fa-3x fa-folder"></i>
-              </div>
-              <p class="text-center">Keep your thoughts organized with easy-to-manage entries and categories.</p>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6">
-            <div class="tm-bg-white-transparent tm-feature-box">
-              <h3 class="tm-feature-name">Secure Access</h3>
-              <div class="tm-feature-icon-container">
-                <i class="fas fa-3x fa-lock"></i>
-              </div>
-              <p class="text-center">Your privacy matters. Enjoy secure and private journaling.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-12">
-            <div class="tm-bg-white-transparent tm-feature-box">
-              <h3 class="tm-feature-name">Memory Highlights</h3>
-              <div class="tm-feature-icon-container">
-                <i class="fas fa-3x fa-star"></i>
-              </div>
-              <p class="text-center">Relive your best moments with curated highlights from your diary.</p>
-            </div>
-          </div>
-        </div>
 
       
         <!-- Page footer -->

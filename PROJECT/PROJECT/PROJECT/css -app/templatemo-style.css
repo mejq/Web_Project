@@ -26,7 +26,7 @@ body {
     line-height: 1.8;
     background-position: center center; /* Keeps the image centered */
 }
-
+ 
 
 
 
@@ -77,8 +77,8 @@ a {
 /* Brand Name - Bold and Logo-Like Font */
 /*.tm-brand-name {
     font-family: 'Montserrat', sans-serif;*/ /* Dolgun ve güçlü font */
-/*font-weight: 900;*/ /* En kal?n versiyon */
-/*font-size: 3rem;
+    /*font-weight: 900;*/ /* En kal?n versiyon */
+    /*font-size: 3rem;
     color: var(--dark-brown);
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -128,7 +128,8 @@ a {
     margin: 0 auto 40px;
     box-shadow: 0px 4px 8px var(--light-shadow);
     transition: all 0.3s ease;
-    font-weight: bold
+    font-weight: bold 
+    
 }
 
     .tm-feature-box:hover {
@@ -239,7 +240,6 @@ a {
         margin-bottom: 20px;
     }
 }
-
 form {
     margin: 20px;
 }
@@ -330,13 +330,13 @@ form {
     height: 20px; /* Set a fixed height to maintain aspect ratio */
     margin-right: 8px; /* Add spacing between the icon and the text */
     vertical-align: auto; /* Align the icon with the text */
+    
 }
 
 .nav-link {
     display: flex; /* Ensure proper alignment */
     align-items: center; /* Vertically center-align text and icon */
 }
-
 .tm-brand-logo {
     max-width: 100%; /* Logo boyutunu %100 yaparak konteynerin boyutuna göre ayarlayal?m */
     height: auto; /* Yüksekli?i orant?l? olarak ayarlan?r */
@@ -353,7 +353,6 @@ form {
     max-width: 100px; /* Konteynerin maksimum geni?li?i */
     margin: 0 auto; /* Ortalamak */
 }
-
 .parallax-window {
     background-image: url('path/to/your/image.jpg');
     background-size: cover; /* This ensures the image covers the entire area */
