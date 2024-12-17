@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|c:\\users\\mejo_\\documents\\github\\web_project\\project\\project\\project\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|c:\\users\\mejo_\\documents\\github\\web_project\\project\\project\\project\\master_pages\\old_login.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\master_pages\\old_login.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\master_pages\\old_login.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\master_pages\\old_login.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\css\\login_my.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\css\\login_my.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\img\\login_wallpaper.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\img\\login_wallpaper.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\master_pages\\apppage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\master_pages\\apppage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Old_Login.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PROJECT\\Old_Login.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\master_pages\\main_w_login.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
@@ -19,36 +51,16 @@
       "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\master_pages\\main_w_login.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\css\\login_my.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\css\\login_my.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\css\\templatemo-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\css\\templatemo-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\img\\login_wallpaper.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\img\\login_wallpaper.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\css\\all.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\css\\all.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|solutionrelative:project\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{937D46DA-0E11-479F-86DE-DA2405C5C692}|PROJECT\\PROJECT.csproj|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\project\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -102,10 +114,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mejo_\\source\\repos\\proje_deneme_1\\proje_deneme_1\\login_my.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Old_Login.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PROJECT\\Old_Login.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Old_Login.Master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PROJECT\\Old_Login.Master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -137,7 +145,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -145,15 +153,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Main_w_Login.Master.cs",
-              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Main_w_Login.Master.cs",
-              "RelativeDocumentMoniker": "PROJECT\\Master_Pages\\Main_w_Login.Master.cs",
-              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Main_w_Login.Master.cs",
-              "RelativeToolTip": "PROJECT\\Master_Pages\\Main_w_Login.Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Old_Login.Master.cs",
+              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Old_Login.Master.cs",
+              "RelativeDocumentMoniker": "PROJECT\\Master_Pages\\Old_Login.Master.cs",
+              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Old_Login.Master.cs",
+              "RelativeToolTip": "PROJECT\\Master_Pages\\Old_Login.Master.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAASwEgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T18:22:11.205Z"
+              "WhenOpened": "2024-12-17T15:27:00.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "login_my.css",
+              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\css\\login_my.css",
+              "RelativeDocumentMoniker": "PROJECT\\css\\login_my.css",
+              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\css\\login_my.css",
+              "RelativeToolTip": "PROJECT\\css\\login_my.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-17T14:27:12.078Z"
             },
             {
               "$type": "Document",
@@ -165,35 +186,11 @@
               "RelativeToolTip": "PROJECT\\Master_Pages\\Old_Login.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-16T18:21:31.437Z"
+              "WhenOpened": "2024-12-17T14:26:32.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Old_Login.Master",
-              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Old_Login.Master",
-              "RelativeDocumentMoniker": "PROJECT\\Old_Login.Master",
-              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Old_Login.Master",
-              "RelativeToolTip": "PROJECT\\Old_Login.Master",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-14T12:46:32.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main_w_Login.Master",
-              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Main_w_Login.Master",
-              "RelativeDocumentMoniker": "PROJECT\\Master_Pages\\Main_w_Login.Master",
-              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Main_w_Login.Master",
-              "RelativeToolTip": "PROJECT\\Master_Pages\\Main_w_Login.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-14T12:42:29.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Home.aspx",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Home.aspx",
               "RelativeDocumentMoniker": "PROJECT\\Home.aspx",
@@ -201,43 +198,31 @@
               "RelativeToolTip": "PROJECT\\Home.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-14T12:52:31.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T12:52:31.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "login_my.css",
-              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\css\\login_my.css",
-              "RelativeDocumentMoniker": "PROJECT\\css\\login_my.css",
-              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\css\\login_my.css",
-              "RelativeToolTip": "PROJECT\\css\\login_my.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAB5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-16T09:04:25.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "login_wallpaper.jpg -  [English (United States)] - Bitmap [736x1470, 24 bit, JPG]",
-              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\login_wallpaper.jpg",
-              "RelativeDocumentMoniker": "PROJECT\\img\\login_wallpaper.jpg",
-              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\login_wallpaper.jpg -  [English (United States)] - Bitmap [736x1470, 24 bit, JPG]",
-              "RelativeToolTip": "PROJECT\\img\\login_wallpaper.jpg -  [English (United States)] - Bitmap [736x1470, 24 bit, JPG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-12-15T11:12:17.035Z"
+              "DocumentIndex": 2,
+              "Title": "SignUp.aspx",
+              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\SignUp.aspx",
+              "RelativeDocumentMoniker": "PROJECT\\SignUp.aspx",
+              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\SignUp.aspx",
+              "RelativeToolTip": "PROJECT\\SignUp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-16T03:53:19.017Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\packages.config",
-              "RelativeDocumentMoniker": "PROJECT\\packages.config",
-              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\packages.config",
-              "RelativeToolTip": "PROJECT\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-16T16:04:43.884Z"
+              "Title": "SignUp.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\SignUp.aspx.cs",
+              "RelativeDocumentMoniker": "PROJECT\\SignUp.aspx.cs",
+              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\SignUp.aspx.cs",
+              "RelativeToolTip": "PROJECT\\SignUp.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:43:08.904Z"
             },
             {
               "$type": "Document",
@@ -253,7 +238,77 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Main_w_Login.Master",
+              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Main_w_Login.Master",
+              "RelativeDocumentMoniker": "PROJECT\\Master_Pages\\Main_w_Login.Master",
+              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Main_w_Login.Master",
+              "RelativeToolTip": "PROJECT\\Master_Pages\\Main_w_Login.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-14T12:42:29.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppPage.Master",
+              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\AppPage.Master",
+              "RelativeDocumentMoniker": "PROJECT\\Master_Pages\\AppPage.Master",
+              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\AppPage.Master",
+              "RelativeToolTip": "PROJECT\\Master_Pages\\AppPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-17T14:20:56.881Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "login_wallpaper.jpg -  [English (United States)] - Bitmap [736x1470, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\login_wallpaper.jpg",
+              "RelativeDocumentMoniker": "PROJECT\\img\\login_wallpaper.jpg",
+              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\login_wallpaper.jpg -  [English (United States)] - Bitmap [736x1470, 24 bit, JPG]",
+              "RelativeToolTip": "PROJECT\\img\\login_wallpaper.jpg -  [English (United States)] - Bitmap [736x1470, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-15T11:12:17.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Old_Login.Master",
+              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Old_Login.Master",
+              "RelativeDocumentMoniker": "PROJECT\\Old_Login.Master",
+              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Old_Login.Master",
+              "RelativeToolTip": "PROJECT\\Old_Login.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-14T12:46:32.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Main_w_Login.Master.cs",
+              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Main_w_Login.Master.cs",
+              "RelativeDocumentMoniker": "PROJECT\\Master_Pages\\Main_w_Login.Master.cs",
+              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Master_Pages\\Main_w_Login.Master.cs",
+              "RelativeToolTip": "PROJECT\\Master_Pages\\Main_w_Login.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:22:11.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\packages.config",
+              "RelativeDocumentMoniker": "PROJECT\\packages.config",
+              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\packages.config",
+              "RelativeToolTip": "PROJECT\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-16T16:04:43.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "templatemo-style.css",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\css\\templatemo-style.css",
               "RelativeDocumentMoniker": "PROJECT\\css\\templatemo-style.css",
@@ -265,19 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SignUp.aspx",
-              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\SignUp.aspx",
-              "RelativeDocumentMoniker": "PROJECT\\SignUp.aspx",
-              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\SignUp.aspx",
-              "RelativeToolTip": "PROJECT\\SignUp.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-16T03:53:19.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Old_Login.Master.cs",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Old_Login.Master.cs",
               "RelativeDocumentMoniker": "PROJECT\\Old_Login.Master.cs",
@@ -289,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "App_deneme1.aspx",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\App_deneme1.aspx",
               "RelativeDocumentMoniker": "PROJECT\\App_deneme1.aspx",
@@ -301,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "all.min.css",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\css\\all.min.css",
               "RelativeDocumentMoniker": "PROJECT\\css\\all.min.css",
@@ -313,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "AppPage.Master",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\AppPage.Master",
               "RelativeDocumentMoniker": "PROJECT\\AppPage.Master",
@@ -325,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "templatemo-style.css",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\css_app\\templatemo-style.css",
               "RelativeDocumentMoniker": "PROJECT\\css_app\\templatemo-style.css",
@@ -337,19 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SignUp.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\SignUp.aspx.cs",
-              "RelativeDocumentMoniker": "PROJECT\\SignUp.aspx.cs",
-              "ToolTip": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\SignUp.aspx.cs",
-              "RelativeToolTip": "PROJECT\\SignUp.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T05:43:08.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Main_w_Login.Master.cs",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Main_w_Login.Master.cs",
               "RelativeDocumentMoniker": "PROJECT\\Main_w_Login.Master.cs",
@@ -361,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\css\\app.css",
               "RelativeDocumentMoniker": "PROJECT\\css\\app.css",
@@ -373,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "App_deneme1.aspx.cs",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\App_deneme1.aspx.cs",
               "RelativeDocumentMoniker": "PROJECT\\App_deneme1.aspx.cs",
@@ -385,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Contact.aspx",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Contact.aspx",
               "RelativeDocumentMoniker": "PROJECT\\Contact.aspx",
@@ -397,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "contact.css",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\css\\contact.css",
               "RelativeDocumentMoniker": "PROJECT\\css\\contact.css",
@@ -409,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "about.css",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\css\\about.css",
               "RelativeDocumentMoniker": "PROJECT\\css\\about.css",
@@ -421,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Features.aspx",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Features.aspx",
               "RelativeDocumentMoniker": "PROJECT\\Features.aspx",
@@ -433,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Home.aspx.cs",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\Home.aspx.cs",
               "RelativeDocumentMoniker": "PROJECT\\Home.aspx.cs",
@@ -445,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "index_wallpaper.jpg -  [English (United States)] - Bitmap [473x355, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\index_wallpaper.jpg",
               "RelativeDocumentMoniker": "PROJECT\\img\\index_wallpaper.jpg",
@@ -456,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "home_my.jpg -  [English (United States)] - Bitmap [735x892, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\home_my.jpg",
               "RelativeDocumentMoniker": "PROJECT\\img\\home_my.jpg",
@@ -467,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "app_1.jpg -  [English (United States)] - Bitmap [736x1041, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\app_1.jpg",
               "RelativeDocumentMoniker": "PROJECT\\img\\app_1.jpg",
@@ -478,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "login_my.jpg -  [English (United States)] - Bitmap [736x981, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\login_my.jpg",
               "RelativeDocumentMoniker": "PROJECT\\img\\login_my.jpg",
@@ -489,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "logout_icon.png -  [English (United States)] - PNG [512x512, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\logout_icon.png",
               "RelativeDocumentMoniker": "PROJECT\\img\\logout_icon.png",
@@ -500,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "profile_icon.png -  [English (United States)] - PNG [512x512, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\mejo_\\Documents\\GitHub\\Web_Project\\PROJECT\\PROJECT\\PROJECT\\img\\profile_icon.png",
               "RelativeDocumentMoniker": "PROJECT\\img\\profile_icon.png",
@@ -511,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "login_my.css",
               "DocumentMoniker": "C:\\Users\\mejo_\\source\\repos\\proje_deneme_1\\proje_deneme_1\\login_my.css",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\proje_deneme_1\\proje_deneme_1\\login_my.css",

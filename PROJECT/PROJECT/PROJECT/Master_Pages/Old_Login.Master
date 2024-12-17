@@ -12,8 +12,10 @@
 <body>
     <div class="login-container">
         <!-- Left Section with Info -->
-        <div class="info">
+        <div class="info" data-image-src="img/login_wallpaper.jpg">
+
             <img src="images/logo.png" alt="Online Diary Logo" class="logo">
+            
             <h2>Welcome to Your Online Diary</h2>
             <p>
                 Your personal online diary where you can record thoughts, memories, and feelings anytime, anywhere.
@@ -29,9 +31,9 @@
                     <!-- Username Input -->
                     &nbsp;<!-- Password Input -->
                    
-                    <asp:TextBox ID="txtbx_username" runat="server" ></asp:TextBox>
-                    <asp:TextBox ID="txtbx_password" runat="server" ></asp:TextBox>
-                    <asp:TextBox ID="txtbx_email" runat="server" ></asp:TextBox>
+                    <asp:TextBox ID="txtbx_username" runat="server" required>Username</asp:TextBox>
+                    <asp:TextBox ID="txtbx_password" runat="server" required></asp:TextBox>
+                    <asp:TextBox ID="txtbx_email" runat="server" required></asp:TextBox>
 &nbsp;<!-- Submit Button --><asp:DropDownList ID="ddlist_gender" runat="server">
                         <asp:ListItem>Male</asp:ListItem>
                         <asp:ListItem>Female</asp:ListItem>
