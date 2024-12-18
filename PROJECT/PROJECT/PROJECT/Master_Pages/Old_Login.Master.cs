@@ -38,23 +38,42 @@ namespace PROJECT
 
             string add_usr_command = "INSERT INTO User_Info (Username, Passwd, Gender, Email) " +
                 "VALUES (@Username, @Password, @Gender, @Email)";
+            string usrname_control = "Select COUNT(*) from User_Info Where Username=@username;";
+            string mail_control = "Select COUNT(* from User_Info Where Email=@email;";
 
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Open();
-                using (SqlCommand cmd = new SqlCommand(add_usr_command, connection))
-                {
-                    // add with value Bu metod, sorgudaki parametreler (@Username, @Password, vb.)
-                    // ile kullanıcının gönderdiği değerleri eşler ve sorguyu çalıştırmak için hazırlar.
-                    cmd.Parameters.AddWithValue("@Username", username);
-                    cmd.Parameters.AddWithValue("@Password", password);  // Şifreyi hash'lemeyi unutmayın
-                    cmd.Parameters.AddWithValue("@Gender", gender);
-                    cmd.Parameters.AddWithValue("@Email", email);
 
-                    // SQL komutunu çalıştırıyoruz
-                    cmd.ExecuteNonQuery();
+                //Username ve mail mevcut mu kontrol
+                using (SqlCommand command_cntrl = new SqlCommand(usrname_control, connection))
+                {
+                    if (command_cntrl.CommandText !=""  &&command_cntrl.CommandText!="")
+                    {
+
+                        using (SqlCommand cmd = new SqlCommand(add_usr_command, connection))
+                        {
+                            // add with value Bu metod, sorgudaki parametreler (@Username, @Password, vb.)
+                            // ile kullanıcının gönderdiği değerleri eşler ve sorguyu çalıştırmak için hazırlar.
+                            cmd.Parameters.AddWithValue("@Username", username);
+                            cmd.Parameters.AddWithValue("@Password", password);  // Şifreyi hash'lemeyi unutmayın
+                            cmd.Parameters.AddWithValue("@Gender", gender);
+                            cmd.Parameters.AddWithValue("@Email", email);
+
+                            // SQL komutunu çalıştırıyoruz
+
+
+                            cmd.ExecuteNonQuery();
+
+                        }
+                    }
+
+
 
                 }
+
+ 
+
 
 
 
@@ -79,6 +98,7 @@ namespace PROJECT
 
 
         }
+
 
 
     }
