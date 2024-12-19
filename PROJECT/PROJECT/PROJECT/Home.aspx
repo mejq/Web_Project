@@ -15,8 +15,7 @@
              <input name="Password" type="password" class="tm-password-input" id="password" placeholder="Password" required />
             <br><br />
  <button type="submit" class="btn btn-secondary">Login</button><br /><br />
-<a>İf you don't have an account </a> <button type="submit" class="btn btn-secondary">Sign Up</button>
-
+ 
         </form>
       </div>
     </div>

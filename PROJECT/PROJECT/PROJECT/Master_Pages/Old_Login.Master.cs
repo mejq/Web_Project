@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
@@ -39,16 +40,47 @@ namespace PROJECT
             string add_usr_command = "INSERT INTO User_Info (Username, Passwd, Gender, Email) " +
                 "VALUES (@Username, @Password, @Gender, @Email)";
             string usrname_control = "Select COUNT(*) from User_Info Where Username=@username;";
-            string mail_control = "Select COUNT(* from User_Info Where Email=@email;";
+            string mail_control = "Select COUNT(*) from User_Info Where Email=@email;";
 
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
+                bool emailError = false;
+                bool usernameError = false;
                 connection.Open();
 
                 //Username ve mail mevcut mu kontrol
-                using (SqlCommand command_cntrl = new SqlCommand(usrname_control, connection))
+                using (SqlCommand command_cntrl_usrname = new SqlCommand(usrname_control, connection))
                 {
-                    if (command_cntrl.CommandText !=""  &&command_cntrl.CommandText!="")
+                    command_cntrl_usrname.Parameters.Add(new SqlParameter("@Username", SqlDbType.NVarChar) { Value = username });
+
+                    int existingCount_usrname = (int)command_cntrl_usrname.ExecuteScalar();
+
+
+                    using (SqlCommand command_cntrl_email = new SqlCommand(mail_control, connection))
+                    {
+                        command_cntrl_email.Parameters.Add(new SqlParameter("@Email", SqlDbType.NVarChar) { Value = email });
+
+                        int existingCount_email = (int)command_cntrl_email.ExecuteScalar();
+                        if (existingCount_email > 0)
+                        {
+                            txtbx_email.Text = "This E-mail is already taken!";
+                            txtbx_email.BackColor = Color.Red;
+                            emailError = true;
+                        }
+
+
+                    }
+                    if (existingCount_usrname > 0)
+                    {
+                        txtbx_username.Text = "This username is already taken!";
+                        txtbx_username.BackColor = Color.Red;
+                        usernameError = true;
+                    }
+                    
+
+
+
+                    if (!emailError && !usernameError)
                     {
 
                         using (SqlCommand cmd = new SqlCommand(add_usr_command, connection))
@@ -66,13 +98,15 @@ namespace PROJECT
                             cmd.ExecuteNonQuery();
 
                         }
+                        Response.Redirect("App_Home.aspx");
                     }
+
 
 
 
                 }
 
- 
+
 
 
 
@@ -80,7 +114,7 @@ namespace PROJECT
 
             }
         }
-        private void regex(string username,string password, string email,string gender)
+        private void regex(string username, string password, string email, string gender)
         {
             string email_check = txtbx_email.Text;
             Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
@@ -88,13 +122,12 @@ namespace PROJECT
             if (match.Success)
             {
                 SignUp_User(username, password, email, gender);
-                Response.Redirect("App_Home.aspx");
+
             }
 
             else
-                txtbx_email.Text = "İncorrect Email!";
-                txtbx_email.BackColor = Color.Red;
-                txtbx_email.Focus();
+                txtbx_email.Text = "İncorrect Form of Email!";
+            
 
 
         }
@@ -102,4 +135,5 @@ namespace PROJECT
 
 
     }
+
 }
