@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/custom-style.css" />
   </head>
   <body>
+      <form id="form1" runat="server">
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/background_3000x3000.jpg">
       <div class="container-fluid">
         <!-- Brand Section -->
@@ -41,10 +42,7 @@
                       <div class="tm-nav-link-highlight"></div>
                       <a class="nav-link" href="Home.aspx">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="journal.aspx">My Journal</a>
-                    </li>
+                   
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
                       <a class="nav-link" href="Features.aspx">Features</a>
@@ -57,7 +55,20 @@
                       <div class="tm-nav-link-highlight"></div>
                       <a class="nav-link" href="contact.html">Contact</a>
                     </li>
+                      <li class="nav-item">
+  <div class="tm-nav-link-highlight">
+      <asp:ImageButton ID="ImageButton1" runat="server" Height="30px" ImageUrl="~/img/profile_icon.png" OnClick="ImageButton1_Click" />
+                          </div>
+  
+</li>
+                      <li class="nav-item">
+  <div class="tm-nav-link-highlight">
+      <asp:ImageButton ID="ImageButton2" runat="server" Height="30px" ImageUrl="~/img/logout_icon.png" />
+                          </div>
+</li>
                   </ul>
+                    <p>
+                        &nbsp;</p>
                 </div>
               </nav>
             </div>
@@ -82,9 +93,6 @@
            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
           </asp:ContentPlaceHolder>
 
-
-
-
       
         <!-- Page footer -->
         <footer class="row">
@@ -99,5 +107,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+      </form>
   </body>
 </html>

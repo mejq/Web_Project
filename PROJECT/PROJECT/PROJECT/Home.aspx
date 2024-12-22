@@ -10,13 +10,23 @@
         <p class="tm-call-to-action-description">
           Discover the power of reflection and storytelling. Begin your journey with MyDiary today!
         </p>
-        <form action="#" method="get" class="tm-call-to-action-form">
-             <input name="Username" type="username" class="tm-username-input" id="username" placeholder="Username" required /><br />
-             <input name="Password" type="password" class="tm-password-input" id="password" placeholder="Password" required />
-            <br><br />
- <button type="submit" class="btn btn-secondary">Login</button><br /><br />
+          <form id="form1" runat="server">
+              <asp:TextBox ID="txtbx_Username" runat="server" ForeColor="#795548" Height="34px" OnTextChanged="TextBox1_TextChanged" Width="239px"></asp:TextBox>
+              <br />
+              <asp:TextBox ID="txtbPassword" runat="server" ForeColor="#795548" Height="33px" OnTextChanged="TextBox1_TextChanged" TextMode="Password" Width="239px"></asp:TextBox>
+              <br />
+              <asp:Label ID="lb_warning" runat="server" Text="Label"></asp:Label>
+              <br />
+              <asp:Button ID="btn_login" runat="server" Font-Bold="True" OnClick="btn_login_Click" Text="Login" />
+              <br />
+            <br>
+              <asp:Label ID="Label1" runat="server" Font-Bold="False" ForeColor="#795548" Text="İf You Don't Have an Account   "></asp:Label>
+
+              <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" ForeColor="#795548" OnClick="LinkButton1_Click" PostBackUrl="~/SignUp.aspx">Sign İn</asp:LinkButton>
+              <br />
+              <br /><br />
  
-        </form>
+          </form>
       </div>
     </div>
   </section>

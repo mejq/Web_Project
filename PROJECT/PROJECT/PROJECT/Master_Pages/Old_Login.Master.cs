@@ -63,7 +63,7 @@ namespace PROJECT
                         int existingCount_email = (int)command_cntrl_email.ExecuteScalar();
                         if (existingCount_email > 0)
                         {
-                            txtbx_email.Text = "This E-mail is already taken!";
+                            txtbx_email.Text= "This E-mail is already taken!";//bu sqle yazılıyo duzelt
                             txtbx_email.BackColor = Color.Red;
                             emailError = true;
                         }
@@ -76,31 +76,32 @@ namespace PROJECT
                         txtbx_username.BackColor = Color.Red;
                         usernameError = true;
                     }
-                    
 
 
 
-                    if (!emailError && !usernameError)
+                    if (txtbx_email.Text != "This E-mail is already taken!" && txtbx_username.Text != "This username is already taken!")
                     {
-
-                        using (SqlCommand cmd = new SqlCommand(add_usr_command, connection))
+                        if (!emailError && !usernameError)
                         {
-                            // add with value Bu metod, sorgudaki parametreler (@Username, @Password, vb.)
-                            // ile kullanıcının gönderdiği değerleri eşler ve sorguyu çalıştırmak için hazırlar.
-                            cmd.Parameters.AddWithValue("@Username", username);
-                            cmd.Parameters.AddWithValue("@Password", password);  // Şifreyi hash'lemeyi unutmayın
-                            cmd.Parameters.AddWithValue("@Gender", gender);
-                            cmd.Parameters.AddWithValue("@Email", email);
 
-                            // SQL komutunu çalıştırıyoruz
+                            using (SqlCommand cmd = new SqlCommand(add_usr_command, connection))
+                            {
+                                // add with value Bu metod, sorgudaki parametreler (@Username, @Password, vb.)
+                                // ile kullanıcının gönderdiği değerleri eşler ve sorguyu çalıştırmak için hazırlar.
+                                cmd.Parameters.AddWithValue("@Username", username);
+                                cmd.Parameters.AddWithValue("@Password", password);  // Şifreyi hash'lemeyi unutmayın
+                                cmd.Parameters.AddWithValue("@Gender", gender);
+                                cmd.Parameters.AddWithValue("@Email", email);
+
+                                // SQL komutunu çalıştırıyoruz
 
 
-                            cmd.ExecuteNonQuery();
+                                cmd.ExecuteNonQuery();
 
+                            }
+                            Response.Redirect("App_Home.aspx");
                         }
-                        Response.Redirect("App_Home.aspx");
                     }
-
 
 
 

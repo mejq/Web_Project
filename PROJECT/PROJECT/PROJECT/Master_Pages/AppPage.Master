@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/custom-style.css" />
   </head>
   <body>
+      <form id="form1" runat="server">
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/background_3000x3000.jpg">
       <div class="container-fluid">
         <!-- Brand Section -->
@@ -58,16 +59,12 @@
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="profile.html">
-                          <img src="img/profile_icon.png" alt="Profile Icon" class="nav-icon img-fluid">
-                      </a>
+                        <a><asp:ImageButton runat="server" OnClick="ImageButton1_Click" Height="30px" ImageUrl="~/img/profile_icon.png" />
+                        </a>
                     </li>
                     <li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="Home.aspx">
-                          <img src="img/logout_icon.png" alt="Logout Icon" class="nav-icon img-fluid">
-                      </a>
-                    </li>
+                      <div class="tm-nav-link-highlight" runat="server"></div>
+                       <a><asp:ImageButton ID="ImageButton1" runat="server" OnClick="ImageButton1_Click" Height="30px" ImageUrl="~/img/logout_icon.png" /></a>                     </li>
                   </ul>
                 </div>
               </nav>
@@ -91,5 +88,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+      </form>
   </body>
 </html>
