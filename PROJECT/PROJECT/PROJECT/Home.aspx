@@ -10,7 +10,7 @@
         <p class="tm-call-to-action-description">
           Discover the power of reflection and storytelling. Begin your journey with MyDiary today!
         </p>
-          <form id="form1" runat="server">
+          <form id="form1">
               <asp:TextBox ID="txtbx_Username" runat="server" ForeColor="#795548" Height="34px" OnTextChanged="TextBox1_TextChanged" Width="239px"></asp:TextBox>
               <br />
               <asp:TextBox ID="txtbPassword" runat="server" ForeColor="#795548" Height="33px" OnTextChanged="TextBox1_TextChanged" TextMode="Password" Width="239px"></asp:TextBox>

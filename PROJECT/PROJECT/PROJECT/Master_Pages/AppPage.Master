@@ -42,20 +42,20 @@
                     <li class="nav-item active">
                       <div class="tm-nav-link-highlight"></div>
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="App_Home.aspx">Home <span class="sr-only">(current)</span></a>
                     </li>
                     
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="features.html">Calendar</a>
+                      <a class="nav-link" href="App_Calendar.aspx">Calendar</a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="about.html">Gallery</a>
+                      <a class="nav-link" href="App_Gallery.aspx">Gallery</a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="contact.html">Map</a>
+                      <a class="nav-link" href="App_Map.aspx">Map</a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
@@ -64,7 +64,7 @@
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight" runat="server"></div>
-                       <a><asp:ImageButton ID="ImageButton1" runat="server" OnClick="ImageButton1_Click" Height="30px" ImageUrl="~/img/logout_icon.png" /></a>                     </li>
+                       <a><asp:ImageButton ID="ImageButton1" runat="server" OnClick="ImageButton1_Click" Height="30px" ImageUrl="~/img/logout_icon.png" PostBackUrl="~/Home.aspx" /></a>                     </li>
                   </ul>
                 </div>
               </nav>

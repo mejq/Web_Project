@@ -54,19 +54,21 @@ namespace PROJECT
                     {
                         using(SqlCommand command_ID = new SqlCommand(query_usrID,conn))
                 {
-                    var userId = command.ExecuteScalar(); // Kullanıcı ID'sini al
+                            command_ID.Parameters.AddWithValue("@username", username);
+                            command_ID.Parameters.AddWithValue("@passwd", password);
+                            int userId = Convert.ToInt32(command_ID.ExecuteScalar()); // Kullanıcı ID'sini al
 
                     if (userId != null)
                     {
                         // Kullanıcı doğrulandı
-                        Session["UserID"] = userId.ToString(); // Session'a UserID ekle
+                        Session["UserID"] = userId.ToString(); // Sessiona userıd ekle
 
-                        // DataTable'a giriş bilgisi ekleme (isteğe bağlı)
+                        // DataTable girdisi
                         if (Application["LoggedInUsers"] == null)
                         {
-                            // İlk giriş için DataTable oluştur
+                            // İlk giriş için DataTable oluşturdum
                             DataTable dt = new DataTable();
-                            dt.Columns.Add("UserID", typeof(string));
+                            dt.Columns.Add("UserID", typeof(int));
                             dt.Columns.Add("LoginTime", typeof(DateTime));
                             Application["LoggedInUsers"] = dt;
                         }
@@ -74,7 +76,7 @@ namespace PROJECT
                         // Kullanıcı bilgilerini DataTable'a ekle
                         DataTable loggedInUsers = (DataTable)Application["LoggedInUsers"];
                         DataRow row = loggedInUsers.NewRow();
-                        row["UserID"] = userId.ToString();
+                        row["UserID"] = userId;
                         row["LoginTime"] = DateTime.Now;
                         loggedInUsers.Rows.Add(row);
 

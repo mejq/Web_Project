@@ -360,3 +360,9 @@ form {
     background-position: center center; /* Keeps the image centered */
     background-attachment: fixed; /* Makes the background stay in place while scrolling (optional) */
 }
+.textBoximg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    
-        <form id="form2" runat="server">
+        <form id="form2">
      <!-- Heading for Day's Journal -->
      <div class="form-group">
          <asp:Label ID="Label2" runat="server" Font-Bold="True" ForeColor="White" Text="How Was Your Day?" CssClass="label-heading"></asp:Label>
@@ -20,38 +20,47 @@
          <asp:FileUpload ID="FileUpload1" runat="server" OnClientClick="showImagePreview()" CssClass="file-upload" />
      </div>
 
-     <!-- Preview Image -->
-     <div class="form-group">
-         <img id="imagePreview" src="#" alt="Image Preview" style="display:none; width: 100%; max-height: 300px; margin-top: 10px;" />
-     </div>
-
      <!-- Save Button -->
      <div class="form-group">
          <asp:Button ID="btn_Save" runat="server" OnClick="btn_save_Click" Text="Save Entry" CssClass="btn-save" />
+         <br />
      </div>
+           
+            <div class="tm-bg-white-transparent" >
+    <!-- Görsel yükleme alanı -->
+    <input type="file" id="fileInput" class="textBoximg" accept="image/*" />
 
- 
-<script>
-    // Görselin Base64 formatında önizlemesini göster
-    function showImagePreview() {
-        var fileInput = document.getElementById("<%= FileUpload1.ClientID %>");
-        var preview = document.getElementById("imagePreview");
 
-        var file = fileInput.files[0]; // İlk dosya
-        var reader = new FileReader();
+    <!-- Görsellerin görüneceği metin kutusu -->
+    <div id="textBox" class="text-box tm-bg-white-transparent" contenteditable="true">
+        Görsel eklemek için yukarıdan dosya seçin...
+    </div>
 
-        reader.onloadend = function () {
-            preview.src = reader.result;
-            preview.style.display = "block"; // Görseli görünür yap
-        }
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const textBox = document.getElementById('textBox');
 
-        if (file) {
-            reader.readAsDataURL(file); // Base64 olarak okuma
-        } else {
-            preview.src = "";
-        }
-    }
-</script>
+        fileInput.addEventListener('change', function () {
+            const file = this.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const base64Image = e.target.result;
+
+                    // Görseli textBox içine ekle
+                    const imgElement = document.createElement('img');
+                    imgElement.src = base64Image;
+                    textBox.appendChild(imgElement);
+                };
+                reader.readAsDataURL(file); // Görseli Base64'e çevir
+            }
+        });
+    </script>
+                </div>
+
+
+    
+
 
         <!-- Public Diary Grid -->
         <div class="form-group">

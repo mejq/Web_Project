@@ -27,7 +27,8 @@ namespace PROJECT
             // Kullanıcıdan alınan metin
             string diaryContent = Textarea1.Value;
             string DiaryTitle = txtbx_title.Text;
-
+            int currentUserID = Convert.ToInt32(Session["UserID"]); //session ıd kabul etmıyor
+            //DateTime CreatedAt = DateTime.Now;
             // Görseli Base64 formatına çevir
             string base64Image = string.Empty;
             if (FileUpload1.HasFile)
@@ -46,7 +47,7 @@ namespace PROJECT
             // Veritabanına kaydetme işlemi
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "INSERT INTO Diary (Content,Title) VALUES (@Content,@Title)";
+                string query = "INSERT INTO Diary (Content,Title,UserID) VALUES (@Content,@Title,@UserID)";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     // Görsel Base64 formatında metinle birlikte ekleniyor
@@ -57,6 +58,9 @@ namespace PROJECT
 
                     command.Parameters.AddWithValue("@Content", diaryContent);
                     command.Parameters.AddWithValue("@Title",DiaryTitle);
+                    command.Parameters.AddWithValue("@UserID", currentUserID);
+                    //command.Parameters.AddWithValue("@CreatedAt", CreatedAt);
+
 
 
                     connection.Open();
@@ -67,6 +71,7 @@ namespace PROJECT
 
             // Kullanıcıya bir mesaj göster
             Response.Write("<script>alert('Günlük başarıyla kaydedildi!');</script>");
+            
 
             // Formu temizle
             Textarea1.Value = string.Empty;
