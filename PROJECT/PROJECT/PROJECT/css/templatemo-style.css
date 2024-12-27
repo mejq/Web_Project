@@ -366,3 +366,18 @@ form {
     display: block;
     margin: 0 auto;
 }
+.form-group_showdiary {
+    list-style-type: none; /* Liste işaretlerini kaldırır */
+    padding: 0; /* Varsayılan iç boşluğu kaldırır */
+    margin: 0; /* Varsayılan dış boşluğu kaldırır */
+}
+
+.form-group ul {
+    display: flex; /* Flexbox ile düzenleme yapıyoruz */
+    list-style-type: none; /* Liste işaretlerini kaldırıyoruz */
+    padding: 0; /* Varsayılan padding'i kaldırıyoruz */
+}
+
+    .form-group ul li {
+        margin-right: 10px; /* Öğeler arasına boşluk ekliyoruz */
+    }

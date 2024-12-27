@@ -11,6 +11,7 @@ namespace PROJECT
 {
     public partial class App_deneme1 : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -24,44 +25,28 @@ namespace PROJECT
 
         protected void btn_save_Click(object sender, EventArgs e)
         {
-            // Kullanıcıdan alınan metin
-            string diaryContent = Textarea1.Value;
+            // Kullanıcıdan alınan içerik ve başlık
+            string diaryContent =HiddenField1.Value;
             string DiaryTitle = txtbx_title.Text;
-            int currentUserID = Convert.ToInt32(Session["UserID"]); //session ıd kabul etmıyor
-            //DateTime CreatedAt = DateTime.Now;
-            // Görseli Base64 formatına çevir
-            string base64Image = string.Empty;
-            if (FileUpload1.HasFile)
-            {
-                using (var ms = new MemoryStream())
-                {
-                    FileUpload1.PostedFile.InputStream.CopyTo(ms);
-                    byte[] imageBytes = ms.ToArray();
-                    base64Image = Convert.ToBase64String(imageBytes);
-                }
-            }
 
-           
-           
+            int currentUserID = Convert.ToInt32(Session["UserID"]);
+
+            // İçerik ve başlık boşluk kontrolü
+            if (string.IsNullOrWhiteSpace(diaryContent) || string.IsNullOrWhiteSpace(DiaryTitle))
+            {
+                Response.Write("<script>alert('Başlık ve içerik boş olamaz.');</script>");
+                return;
+            }
 
             // Veritabanına kaydetme işlemi
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "INSERT INTO Diary (Content,Title,UserID) VALUES (@Content,@Title,@UserID)";
+                string query = "INSERT INTO Diary (Content, Title, UserID) VALUES (@Content, @Title, @UserID)";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    // Görsel Base64 formatında metinle birlikte ekleniyor
-                    if (!string.IsNullOrEmpty(base64Image))
-                    {
-                        diaryContent += "<br/><img src='data:image/png;base64," + base64Image + "' alt='Diary Image' />";
-                    }
-
                     command.Parameters.AddWithValue("@Content", diaryContent);
-                    command.Parameters.AddWithValue("@Title",DiaryTitle);
+                    command.Parameters.AddWithValue("@Title", DiaryTitle);
                     command.Parameters.AddWithValue("@UserID", currentUserID);
-                    //command.Parameters.AddWithValue("@CreatedAt", CreatedAt);
-
-
 
                     connection.Open();
                     command.ExecuteNonQuery();
@@ -69,15 +54,61 @@ namespace PROJECT
                 }
             }
 
-            // Kullanıcıya bir mesaj göster
+            // Başarı mesajı
             Response.Write("<script>alert('Günlük başarıyla kaydedildi!');</script>");
-            
 
             // Formu temizle
-            Textarea1.Value = string.Empty;
+            txtbx_title.Text = string.Empty;
+        
+
         }
 
         protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void HiddenField1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btn_show_Click(object sender, EventArgs e)
+        {
+            string query = "SELECT Content, Title FROM Diary WHERE CAST(CreatedAt AS DATE) = @Date";
+            string diaryContent = string.Empty;
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(query, connection);
+                //command.Parameters.AddWithValue("@Date",Calendar_diary.SelectedDate);
+                DateTime selectedDate = Calendar_diary.SelectedDate;
+                command.Parameters.AddWithValue("@Date", selectedDate.ToString("yyyy-MM-dd"));
+
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader(); // DataReader ile verileri al
+
+                while (reader.Read())
+                {
+                    // Her bir satırdaki veriyi al
+                    string content = reader["Content"].ToString();
+                    string title = reader["Title"].ToString();
+
+                    // İçeriği birleştirerek göster
+                    diaryContent += "<h3>" + title + "</h3>" + "<p>" + content + "</p>";
+                }
+
+                reader.Close();
+            }
+
+            // Literal kontrolüne atama
+            literal_diary.Text = diaryContent;
+
+
+
+        }
+
+        protected void Calendar_diary_SelectionChanged(object sender, EventArgs e)
         {
 
         }
