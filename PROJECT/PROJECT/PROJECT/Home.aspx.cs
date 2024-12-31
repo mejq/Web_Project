@@ -32,9 +32,9 @@ namespace PROJECT
         {
             string username = txtbx_Username.Text;
             string password = txtbPassword.Text;
-            string userID;
+           
             string query = "SELECT username, passwd,UserID FROM User_Info WHERE username = @username AND passwd = @passwd";
-            string query_usrID = "SELECT UserID FROM User_Info WHERE username = @username AND passwd = @passwd";
+            string query_usrID = "SELECT UserID, Role FROM User_Info WHERE username = @username AND passwd = @passwd ";
 
 
 
@@ -56,32 +56,50 @@ namespace PROJECT
                 {
                             command_ID.Parameters.AddWithValue("@username", username);
                             command_ID.Parameters.AddWithValue("@passwd", password);
-                            int userId = Convert.ToInt32(command_ID.ExecuteScalar()); // Kullanıcı ID'sini al
+                            int userID = -1;
+                            using (SqlDataReader reader = command_ID.ExecuteReader())
+                            {
+                                if (reader.Read()) // Check if a row exists
+                                {
+                                    string role = reader["Role"].ToString(); // Fetch the 'Role' column by name
+                                     userID = Convert.ToInt32(reader["userID"]);
+                                    // Use these values as needed
+                                    Session["Role"] = role;
 
-                    if (userId != null)
+                                }
+
+                            }
+                    if (userID !=-1)
                     {
                         // Kullanıcı doğrulandı
-                        Session["UserID"] = userId.ToString(); // Sessiona userıd ekle
+                        Session["UserID"] = userID.ToString(); // Sessiona userıd ekle
 
                         // DataTable girdisi
-                        if (Application["LoggedInUsers"] == null)
-                        {
-                            // İlk giriş için DataTable oluşturdum
-                            DataTable dt = new DataTable();
-                            dt.Columns.Add("UserID", typeof(int));
-                            dt.Columns.Add("LoginTime", typeof(DateTime));
-                            Application["LoggedInUsers"] = dt;
-                        }
+                        //if (Application["LoggedInUsers"] == null)
+                        //{
+                        //    // İlk giriş için DataTable oluşturdum
+                        //    DataTable dt = new DataTable();
+                        //    dt.Columns.Add("UserID", typeof(int));
+                        //    dt.Columns.Add("LoginTime", typeof(DateTime));
+                        //    dt.Columns.Add("Role", typeof(string));
+                        //    Application["LoggedInUsers"] = dt;
+                        //}
+                        //        DataTable loggedInUsers = (DataTable)Application["LoggedInUsers"];
+                        //        DataRow row = loggedInUsers.NewRow();
+                                
 
-                        // Kullanıcı bilgilerini DataTable'a ekle
-                        DataTable loggedInUsers = (DataTable)Application["LoggedInUsers"];
-                        DataRow row = loggedInUsers.NewRow();
-                        row["UserID"] = userId;
-                        row["LoginTime"] = DateTime.Now;
-                        loggedInUsers.Rows.Add(row);
+                        //            // Kullanıcı bilgilerini DataTable'a ekle
 
-                        // Başarılı giriş sonrası yönlendirme
-                        Response.Redirect("App_Home.aspx");
+                        //            row["UserID"] = userId;
+                        //            row["LoginTime"] = DateTime.Now;
+                        //            row["Role"] = role;
+                        //            loggedInUsers.Rows.Add(row);
+
+                                    // Başarılı giriş sonrası yönlendirme
+                                    Response.Redirect("App_Home.aspx");
+                                
+
+
                     }
                     else
                     {

@@ -103,6 +103,7 @@ namespace PROJECT
 
             // Literal kontrolüne atama
             literal_diary.Text = diaryContent;
+           
 
 
 

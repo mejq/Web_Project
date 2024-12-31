@@ -381,3 +381,9 @@ form {
     .form-group ul li {
         margin-right: 10px; /* Öğeler arasına boşluk ekliyoruz */
     }
+
+
+.leaflet-marker-icon {
+    z-index: 1000; /* Markerları en üstte tutar */
+    cursor: pointer; /* Tıklanabilir olduğunu belirtir */
+}

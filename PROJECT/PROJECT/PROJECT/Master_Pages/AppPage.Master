@@ -42,13 +42,11 @@
                     <li class="nav-item active">
                       <div class="tm-nav-link-highlight"></div>
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="App_Home.aspx">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    
-                    <li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="App_Calendar.aspx">Calendar</a>
-                    </li>
+                      <a class="nav-link" href="App_Home.aspx">Home <span class="sr-only">(current)</span></a><asp:Button ID="Button1" runat="server" Font-Bold="True" ForeColor="#CC0000" OnClick="Button1_Click" PostBackUrl="~/Admin.aspx" Text="ADMIN" />
+                        <div class="tm-nav-link-highlight">
+                        </div>
+                        <a class="nav-link" href="App_Calendar.aspx">Calendar</a>
+                        </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
                       <a class="nav-link" href="App_Gallery.aspx">Gallery</a>
@@ -65,6 +63,8 @@
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight" runat="server"></div>
                        <a><asp:ImageButton ID="ImageButton1" runat="server" OnClick="ImageButton1_Click" Height="30px" ImageUrl="~/img/logout_icon.png" PostBackUrl="~/Home.aspx" /></a>                     </li>
+                      <li class="nav-item">
+                      </li>
                   </ul>
                 </div>
               </nav>
